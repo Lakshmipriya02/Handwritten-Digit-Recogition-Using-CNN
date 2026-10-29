@@ -21,6 +21,3 @@ python app.py        # opens http://127.0.0.1:7860
 - `preprocess.py`  converts a canvas drawing into an MNIST-style 28x28 input (crop, scale to 20px, centre by centre of mass)
 - `app.py`         Gradio app with a drawing canvas
 
-## Hosting
-Gradio Spaces on Hugging Face now need a paid plan for new Spaces. Free options: record a demo video from the
-local app, or host a static (in-browser) version. Colab can also give a temporary public link with `demo.launch(share=True)`.
